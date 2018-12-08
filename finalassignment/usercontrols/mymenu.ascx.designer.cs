@@ -10,15 +10,24 @@
 namespace finalassignment {
     
     
-    public partial class SiteMaster {
+    public partial class mymenu {
         
         /// <summary>
-        /// MainContent control.
+        /// pages_select control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.SqlDataSource pages_select;
+        
+        /// <summary>
+        /// menucontainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl menucontainer;
     }
 }
