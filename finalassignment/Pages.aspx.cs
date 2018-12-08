@@ -54,5 +54,25 @@ namespace finalassignment
             return myview;
 
         }
+        protected void Search_Pages(object sender, EventArgs e)
+        {
+            /*
+              This function takes the inputs from the search
+              and changes the sqldatasource select command
+              to filter down students.
+            */
+            string newsql = basequery + " WHERE (1=1) ";
+            string key = Page_key.Text.ToString();
+            if (key != "" || key != "")
+            {
+                string searchpage = newsql + "and pagetitle like '%" + key + "%'";
+                pages_select.SelectCommand = searchpage;
+                pages_list.DataSource = Pages_Manual_Bind(pages_select);
+                pages_list.DataBind();
+
+            }
+
+        }
+
     }
 }

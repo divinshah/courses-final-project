@@ -7,7 +7,8 @@
     Microsoft SQL uses + for string concatenation instead
     of Oracle SQL's ||.
     --%>
-    
+    <asp:TextBox runat="server" ID="Page_key"></asp:TextBox>
+    <asp:Button runat="server" Text="Search" OnClick="Search_Pages"/>
     <asp:SqlDataSource runat="server"
         id="pages_select"
        

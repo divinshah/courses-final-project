@@ -19,6 +19,7 @@
         ConnectionString="<%$ ConnectionStrings:school_sql_con %>">
     </asp:SqlDataSource>
     <div id="page_contents" runat="server"></div>
+    <div id="publish_date" runat="server"></div>
     <asp:DataGrid ID="page_list" runat="server">
     </asp:DataGrid>
 </asp:Content>
