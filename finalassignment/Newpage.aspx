@@ -18,7 +18,7 @@
         <asp:TextBox ID="page_content" CssClass="form-control" runat="server"></asp:TextBox>
         
     </div>
-    <ASP:Button Text="Add Page" runat="server" OnClick="AddPage" class="btn btn-dark"/>
+    <ASP:Button Text="Add a Page" runat="server" OnClick="AddPage" class="btn btn-dark"/>
 
     <div runat="server" id="debug" class="querybox"></div>
 </asp:Content>
